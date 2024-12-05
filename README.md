@@ -17,17 +17,25 @@ This project is a Quran-based chatbot that leverages the **Llama-3.2_1B-Instruct
 
 ### Step 1: Install Dependencies
 Install all the required libraries by running the following command:
-
+```bash
+pip install -r requirements.txt
+```
 
 ### Step 2: Choose Your Version
 You have two ways to interact with the chatbot:
 
 #### 1. Raw Chatbot
 Run the raw chatbot directly in the terminal:
+```bash
+python quran_QA.py
+```
 
 
 #### 2. Streamlit Web App
 Run the Streamlit version to use the chatbot in a web browser:
+```bash
+streamlit run streamlit_version.py
+```
 
 
 ## Usage
